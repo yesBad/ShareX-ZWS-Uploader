@@ -10,6 +10,7 @@ I made this project due to there being no simple **ZWS** (Zero Width Space) uplo
 - dashboard.php
 - logout.php
 - embeds.js
+- example.sxcu
 
 #### Installation
 
