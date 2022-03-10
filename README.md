@@ -27,7 +27,7 @@ You should now be finished!
 
 Do you want embeds to work like this:
 
-![embed](https://bad.is-on.top/󠁧󠁰󠁵󠁱󠁷󠁹󠁤󠁫󠁮󠁫󠁰󠁬󠁡󠁵󠁨󠁮󠁲󠁿󠁯󠁵󠁤󠁬󠁩󠁤󠁸󠁥󠁨󠁡󠁯󠁵󠁸󠁸󠁿󠁪󠁢󠁩󠁩󠁮󠁮󠁩)
+![embed](https://bad.is-on.top/%F3%A0%81%A2%F3%A0%81%B3%F3%A0%81%A2%F3%A0%81%AD%F3%A0%81%A4%F3%A0%81%A2%F3%A0%81%A9%F3%A0%81%AF%F3%A0%81%A4%F3%A0%81%A5%F3%A0%81%A6%F3%A0%81%B4%F3%A0%81%B7%F3%A0%81%B9%F3%A0%81%AE%F3%A0%81%B0%F3%A0%81%BF%F3%A0%81%B6%F3%A0%81%AE%F3%A0%81%A9)
 
 Well then you will need to use [Cloudflare](https://cloudflare.com) for them.
 Once you have your domain in Cloudflare enable the proxy like so:
