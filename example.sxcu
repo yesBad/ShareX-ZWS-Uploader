@@ -1,0 +1,12 @@
+{
+  "Name": "ShareX-ZWS-Uploader",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestType": "POST",
+  "RequestURL": "https://bad.yes/upload.php",
+  "FileFormName": "sharex",
+  "Arguments": {
+    "secret": "badishot"
+  },
+  "ResponseType": "Text",
+  "URL": "https://bad.yes/$json:url$"
+}
