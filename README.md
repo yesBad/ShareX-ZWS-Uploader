@@ -11,7 +11,7 @@ I made this project due to there being no simple **ZWS** (Zero Width Space) uplo
 - logout.php
 - embeds.js
 
-#### Installation :
+#### Installation
 
 Requirements: Web server with PHP installed (this was made with 7.4).
 
@@ -23,7 +23,7 @@ Steps:
 - Edit the **$password** line in the **upload.php**.
 You should now be finished!
 
-#### Embedding :
+#### Embedding
 
 Do you want embeds to work like this:
 
@@ -42,7 +42,7 @@ You probably get the idea of it.
 Now you should be all set!
 
 
-#### Sources:
+#### Sources
 I may or may not have *cough* taken some code from places, here's a small list:
 - https://github.com/ShareX/CloudflareWorkers/blob/main/DiscordEmbed.js Cloudflare Workers
 - https://github.com/Inteliboi/ShareX-Custom-Upload Base uploader
