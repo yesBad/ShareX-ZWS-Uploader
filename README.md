@@ -19,7 +19,9 @@ Requirements: Web server with PHP installed (this was made with 7.4).
 Steps:
 - Upload the **upload.php** to your webserver.
 - Edit the **$tokens** line in the **upload.php**.
+
 (Skip these below if you don't want dashboard)
+
 - Upload the **dashboard.php** & **logout.php**.
 - Edit the **$password** line in the **dashboard.php**.
 You should now be finished!
