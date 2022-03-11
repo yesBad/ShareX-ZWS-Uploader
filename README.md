@@ -97,4 +97,4 @@ I may or may not have *cough* taken some code from places, here's a small list:
 - https://bad.is-having.fun aka me for the rest :)
 
 
-#### If you have any suggestions or issues you can leave them in the github issues. 
+#### If you have any suggestions or issues you can leave them in the github issues or just DM me in Discord. (Bad#3260)
