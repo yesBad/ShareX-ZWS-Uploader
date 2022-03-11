@@ -45,6 +45,49 @@ You probably get the idea of it.
 Now you should be all set!
 
 
+#### My NGINX configuration
+
+```
+server {
+    listen 80;
+    server_name bad.is-on.top;
+    return 301 https://bad.is-on.top$request_uri;
+}
+server {
+  listen 443;
+  client_max_body_size 100M;
+  server_name bad.is-on.top;
+    ssl_certificate     /etc/nginx/top.cert;
+    ssl_certificate_key /etc/nginx/top.key;
+  root /var/www/bad;
+  index index.html;
+  location / {
+    try_files $uri.png $uri $uri/ @mp4;
+  }
+  location @mp4 {
+    rewrite ^(.*)$ $1.mp4 last;
+  }
+  
+  location ~ \.php(?:$|/) {
+        try_files $fastcgi_script_name =404;
+
+        include fastcgi_params;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        fastcgi_param PATH_INFO $path_info;
+        fastcgi_param HTTPS on;
+
+        fastcgi_param modHeadersAvailable true;         
+        fastcgi_param front_controller_active true;     
+        fastcgi_pass unix:/var/run/php/php7.4-fpm.sock;
+
+        fastcgi_intercept_errors on;
+        fastcgi_request_buffering off;
+
+        fastcgi_max_temp_file_size 0;
+  }
+}
+```
+
 #### Sources
 I may or may not have *cough* taken some code from places, here's a small list:
 - https://github.com/ShareX/CloudflareWorkers/blob/main/DiscordEmbed.js Cloudflare Workers
