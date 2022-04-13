@@ -1,12 +1,13 @@
 {
+  "Version": "13.6.1",
   "Name": "ShareX-ZWS-Uploader",
   "DestinationType": "ImageUploader, TextUploader, FileUploader",
-  "RequestType": "POST",
-  "RequestURL": "https://bad.yes/upload.php",
-  "FileFormName": "sharex",
+  "RequestMethod": "POST",
+  "RequestURL": "https://is-on.top/upload.php",
+  "Body": "MultipartFormData",
   "Arguments": {
-    "secret": "badishot"
+    "secret": "token"
   },
-  "ResponseType": "Text",
-  "URL": "https://bad.yes/$json:url$"
+  "FileFormName": "sharex",
+  "URL": "https://is-on.top/$json:url$"
 }
