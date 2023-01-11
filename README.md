@@ -1,7 +1,7 @@
 ![CSS](https://img.shields.io/badge/CSS-0%25-critical) ![UI](https://img.shields.io/badge/Beautiful%20UI-0%25-critical) ![Made with love](https://img.shields.io/badge/Made%20with%20-%E2%9D%A4%EF%B8%8F-success)
 
 ### ShareX ZWS Uploader
-##I will probably never touch this pos again :)
+## I will probably never touch this pos again :)
 Is a self-hosted ShareX upload server written in PHP.
 
 I made this project due to there being no simple **ZWS** (Zero Width Space) uploaders for ShareX available.
